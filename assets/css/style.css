@@ -1,0 +1,32 @@
+.content{
+    width: 960px;
+}
+
+nav{
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+}
+
+nav a{
+    float: left;
+    margin: 0 15px;
+}
+
+.nav-right{
+    float: right;
+}
+
+#logo{
+    float: left;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+#personalPic{
+    float:left;
+    width: 100px;
+}
