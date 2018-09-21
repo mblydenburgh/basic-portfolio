@@ -1,48 +1,21 @@
-<<<<<<< HEAD
-.content{
-    width: 960px;
-}
-
-nav{
-    display: inline-block;
-    width: 100%;
-    margin: auto;
-}
-
-nav a{
-    float: left;
-    margin: 0 15px;
-}
-
-.nav-right{
-    float: right;
-}
-
-#logo{
-    float: left;
-}
-
-li{
-    list-style-type: none;
-    display: inline-block;
-}
-
-#personalPic{
-    float:left;
-    width: 100px;
-}
-=======
 *{
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
-body{
-    background: linear-gradient(to right top, #777777, #7e8992, #799ea3, #85b29e, #b1c08f);
-    background-repeat: no-repeat;
-    /* background-position: center; */
+
+html{
+    background: linear-gradient(to right top, #777777, #7e8992, #799ea3, #85b29e, #b1c08f) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
+}
+
+body{
     font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #777777;
+    max-width: 1452px;
 }
 
 nav{
@@ -52,6 +25,7 @@ nav{
 
 a{
     color: #777777;
+    text-decoration: none;
 }
 
 ul{
@@ -64,6 +38,11 @@ li{
     float: left;
     padding: 35px;
     line-height: 20px;
+}
+
+li.nav-right:hover{
+    background-color: rgba(230, 230, 230, 0.61);
+    border-radius: 45%;
 }
 
 .nav-main{
@@ -87,38 +66,42 @@ li{
 
 .img{
     width: 200px;
-    height: 200px;
+    height: 266px;
     background-color: antiquewhite;
-    border: 1px solid black;
+    border: 2px solid teal;
     float:left;
-    margin: 10px;
+    margin: 30px;
 }
 
-#nav-hr{
+#portrait{
     width:100%;
 }
 
-hr{
+
+.main-hr{
     clear: both;
     margin: auto;
-    width: 98%;
+     width: 98%; 
 }
 
 section{
     margin-top:40px;
-    margin-bottom: 115px;
+    margin-bottom: 100px;
+    padding-bottom: .5em;
 }
 
 h1{
-    padding: 30px 0 10px 50px
+    padding: 10px 0 10px 30px
 }
 
 p{
-    line-height: 2.5em;
+    line-height: 2em;
+    margin: 15px 30px;
 }
 
 footer{
-    position: absolute;
+    position: fixed;
+    width: 100%;
     bottom: 0;
 }
 
@@ -134,4 +117,3 @@ footer{
     padding-top: 39px;
     height: 100%;
 }
->>>>>>> b0a85bab91c181f2458c85fe69238a3724f9dac7
