@@ -1,0 +1,27 @@
+input{
+    width:100%;
+    border: 1px solid #ccc;
+    height: 2em;
+}
+
+.form-input{
+    margin: 10px 30px;
+}
+
+#message{
+    width:100%;
+    border: 1px solid #ccc;
+}
+
+#submit{
+    width: 100px;
+    margin-left: 30px;
+    padding: 5px 15px;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 16px;
+}
+
+#submit:hover{
+    background-color: #4e928f;
+}
